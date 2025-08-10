@@ -7,21 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- <body style="background-color: black;"> -->
+    <div class="custom-cursor"></div>
+
     <div id="header">
-        <img src="FullLogo_Transparent.png" alt="logo" style="height: 10vh;">
+        <img class="pointer-normal" src="FullLogo_Transparent.png" alt="logo" style="height: 10vh; cursor: pointer;">
         <div id="navbar">
             <ul type="none">
-                <li>About Me</li>
-                <li>Experience</li>
-                <li>Project</li>
-                <li>Contact</li>
+                <li class="pointer-normal">About Me</li>
+                <li class="pointer-normal">Experience</li>
+                <li class="pointer-normal">Project</li>
+                <li class="pointer-normal">Contact</li>
             </ul>
         </div>
     </div>
-    <div style="display: flex; flex-direction: column; align-items: center; font-size: 12vw;">
-        <span class="transform">HEY, I'M</span>
-        <span class="transform">HARSH</span>
+    <div class="main" style="display: flex; flex-direction: column; align-items: center;">
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 10vw; height: 80vh;">
+            <span class="cursor-hover-effect">HEY, I'M</span>
+            <span class="cursor-hover-effect" style="color: rgb(88, 187, 226);">HARSH</span>
+        </div>
+
     </div>
+    
+    <script src="script.js"></script>      
 </body>
 </html>
