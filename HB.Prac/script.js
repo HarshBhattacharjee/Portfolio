@@ -30,3 +30,4 @@ document.querySelectorAll('.pointer-normal').forEach(el => {
     el.addEventListener('mouseenter', () => cursor.classList.add('hidden'));  // fade out
     el.addEventListener('mouseleave', () => cursor.classList.remove('hidden')); // fade in
 });
+
